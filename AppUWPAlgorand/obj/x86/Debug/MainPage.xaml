@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="AppUWPAlgorand.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AppUWPAlgorand"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button x:ConnectionId='2' Content="Button" VerticalAlignment="Center" HorizontalAlignment="Center"                       />
+        <!--<TextBox HorizontalAlignment="Center" Margin="549,422,0,0" Text="{x:Bind Path=ViewModel.AccountAddress}" TextWrapping="Wrap" VerticalAlignment="Top" TextChanged="TextBox_TextChanged"/>
+        <TextBox HorizontalAlignment="Center" Margin="549,500,0,0" Text="{x:Bind Path=ViewModel.MnemonicKey}" TextWrapping="Wrap" VerticalAlignment="Top" TextChanged="TextBox_TextChanged_1"/>-->
+    </Grid>
+</Page>
+
